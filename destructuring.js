@@ -48,4 +48,4 @@ ES2015 One-Line Array Swap with Destructuring
 
 raceResults()*/
 
-const raceResults = (arr) => {}
+const raceResults = ([first, second, third, ...rest]) => ({first, second, third, rest})
